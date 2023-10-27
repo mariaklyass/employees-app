@@ -1,0 +1,26 @@
+.modal,
+.overlay {
+  position: fixed;
+  z-index: 1000;
+}
+
+.overlay {
+  cursor: pointer;
+  inset: 0;
+  background-color: var(--color-overlay-primary);
+}
+
+.modal {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  background-color: var(--color-surface-primary);
+}
+
+.close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 2;
+}

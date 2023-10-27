@@ -1,0 +1,31 @@
+.skeleton {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.skeleton__container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.skeleton_circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.skeleton_string_large {
+  width: 144px;
+  height: 16px;
+  border-radius: 50px;
+}
+
+.skeleton_string_small {
+  width: 80px;
+  height: 12px;
+  border-radius: 50px;
+}
